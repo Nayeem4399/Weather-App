@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:background="@drawable/weather13"
+        android:orientation="vertical"
+        tools:context=".ForecastWeatherFragment">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="30sp"
+
+            android:text="Forecast Fragment" />
+
+
+
+        <TextView
+            android:id="@+id/latLongTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#060D35"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="forcast Fragment" />
+
+
+    </LinearLayout>
+</layout>
